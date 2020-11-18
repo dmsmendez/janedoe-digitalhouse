@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+header h1 { 
+    margin-top: 10px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+ul li a:hover {
+    text-decoration: none;
+    color: #EB3C62;
+}
+
+.banner-section img {
+    width: 100%;
+}
+
+.presentation {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.presentation h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.presentation p {
+    margin: 0 15px;
+}
+.presentation ol li {
+    margin: 25px;
+}
+
+.presentation ol li a strong{
+    color: #F9A826;
+}
+
+.presentation ol li a:hover {
+    text-decoration: none;
+}
+
+.presentation ol li a strong:hover {
+    color: #f98526;
+}
+
+footer {
+    border: #D3D3D3;
+    background-color: #D3D3D3;
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+    font-size: 1=09rem;
+}
+
+
+
